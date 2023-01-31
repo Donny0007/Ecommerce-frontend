@@ -1,0 +1,76 @@
+$bgcolor: blue;
+$divht: 200px;
+body{
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@mixin borpos{
+    position: absolute;
+    margin: 2px;
+    text-align: center;
+    border-radius: 4px;
+}
+.col-sm-3{
+    height: $divht;
+    border: solid tan 1px;
+    padding: 10px;
+    display: flex;
+    footer{
+        @include borpos;
+        border: solid black 1px;
+        bottom: 0;
+        width: 40%;
+    }
+    header{
+        border: solid salmon 1px;
+        background-color: gray;
+    }
+    div{
+        position: relative;
+        margin: auto;
+        border: solid greenyellow 2px;
+    }
+}
+.footer{
+    @include borpos;
+    bottom: 0;
+    width: 99.5%;
+    background-color: darkslategrey;
+    color: white;
+    .footer_left{
+        height: 100%;
+        position: absolute;
+        margin-left: 15px;
+        padding: 5px;
+    }
+    .footer_center{
+        display: inline-block;
+    }
+    .footer_right{
+        height: 100%;
+        display: inline-block;
+        float: right;
+        margin: 15px;
+        i{
+            margin: 5px;
+            height: 20px;
+            font-size: 24px;
+        }
+    }
+}
+
+.buttons{
+    float: right;
+    margin-left: 650px;
+    margin-top: 7px;
+}
+
+form{
+    .col-sm-3{
+        height: auto;
+        border: 0;
+    }
+    button{
+        margin: 100px;
+    }
+}

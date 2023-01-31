@@ -1,0 +1,74 @@
+body {
+  background-color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.col-sm-3 {
+  height: 200px;
+  border: solid tan 1px;
+  padding: 10px;
+  display: flex;
+}
+.col-sm-3 footer {
+  position: absolute;
+  margin: 2px;
+  text-align: center;
+  border-radius: 4px;
+  border: solid black 1px;
+  bottom: 0;
+  width: 40%;
+}
+.col-sm-3 header {
+  border: solid salmon 1px;
+  background-color: gray;
+}
+.col-sm-3 div {
+  position: relative;
+  margin: auto;
+  border: solid greenyellow 2px;
+}
+
+.footer {
+  position: absolute;
+  margin: 2px;
+  text-align: center;
+  border-radius: 4px;
+  bottom: 0;
+  width: 99.5%;
+  background-color: darkslategrey;
+  color: white;
+}
+.footer .footer_left {
+  height: 100%;
+  position: absolute;
+  margin-left: 15px;
+  padding: 5px;
+}
+.footer .footer_center {
+  display: inline-block;
+}
+.footer .footer_right {
+  height: 100%;
+  display: inline-block;
+  float: right;
+  margin: 15px;
+}
+.footer .footer_right i {
+  margin: 5px;
+  height: 20px;
+  font-size: 24px;
+}
+
+.buttons {
+  float: right;
+  margin-left: 650px;
+  margin-top: 7px;
+}
+
+form .col-sm-3 {
+  height: auto;
+  border: 0;
+}
+form button {
+  margin: 100px;
+}/*# sourceMappingURL=optimal.css.map */
